@@ -28,7 +28,8 @@
    ![](assets//截屏2024-05-27%20下午6.23.59.png)
    [Link text](https://openprocessing.org/sketch/2230988)
 
-  2. Overall animation effect: My animations create a vibrant and dynamic atmosphere through colorful colors. The color rhythm changes, creating a visual rhythm that echoes the effect of LED lights flashing on the surface of the CD player. 
+  2. Overall animation effect: My animations create a vibrant and dynamic atmosphere through colorful colors. The color rhythm changes, creating a visual rhythm that echoes the effect of LED lights flashing on the surface of the CD player.
+   ![](assets//image3.png)
   
 - Technical specification
   1. By controlling the circlesDrawn variable, the circle is gradually drawn on the canvas to simulate the process of the CD player LED light gradually turning on.
