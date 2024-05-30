@@ -11,8 +11,7 @@
   7. animate() : A method of controlling the animation effect by updating the position or properties of the circle based on changes in time or other parameters.
 
 - Animation driven
-  I chose time as the driver of the animation.
-  This animation code is primarily driven by time. The effect of the animation is achieved according to the passage of time and the rendering of each frame. The setInterval() method or frameRate() function sets a certain time interval or frame rate, and then updates the position, properties, or color of the graph at each interval or frame to create a dynamic effect.
+  I choose to use a time-based approach to drive my personal code. Through the control of timer and frame rate, the animation can gradually draw circles and make dynamic changes.
    
 - Animation of image properties
    1. Appearance of circles: The position, size, and color of the circles gradually change so that they appear on the canvas one after the other.
@@ -33,12 +32,12 @@
   
 - Technical specification
   1. By controlling the circlesDrawn variable, the circle is gradually drawn on the canvas to simulate the process of the CD player LED light gradually turning on.
-     ![]
-  3. The setInterval function periodically invokes the animate method to update the position and properties of the circle every 300 milliseconds, producing a dynamic effect.
+     ![](assets//8.png)
+  2. The setInterval function periodically invokes the animate method to update the position and properties of the circle every 300 milliseconds, producing a dynamic effect.
+     ![](assets//7.png)
 
 - Change description
-  1. I changed the arrangement of the circles from diagonal to square.
-  2. An array is added to store the position and size of all the circles drawn for subsequent animation processing.
-  3. The circle drawing logic is adjusted so that the drawing position can be dynamically calculated according to the window size and the number of circles.
-  4. The frame rate and time interval of the animation are optimized for a more fluid and natural dynamic effect.
+  1. I added a counter circlesDrawn to draw circles step by step.
+  2. The animate method was added to allow the circle to change dynamically after the drawing is complete.
+  3. The circle drawing logic was adjusted to dynamically calculate the number and position of circles based on the screen size.
 
